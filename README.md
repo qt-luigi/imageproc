@@ -8,6 +8,8 @@ When you have installed the Go, Please execute following `go get` command:
 
 ```sh
 go get -u github.com/qt-luigi/imageproc
+cd imageproc/cmd 
+go build -o imageproc *.go
 ```
 
 ## Usage
